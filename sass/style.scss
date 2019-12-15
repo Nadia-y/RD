@@ -82,6 +82,7 @@ nav{
 header{
     padding:23px 0 21px 0;
     background-color:black;  
+   
 }
 .logo{
     margin-right: 55px;
@@ -136,6 +137,10 @@ ul, li{
     text-transform: uppercase;
     margin-right: 47px;
 }
+.menu__item a:hover{
+    color:#E3B873;
+  transition: all 0.3s ease;
+}
 a{
     text-decoration: none;
 }
@@ -149,7 +154,7 @@ h1{
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
-    & span{
+& span{
         color: $color-title;
     }
     
@@ -1321,11 +1326,58 @@ label[for="questions__form_check"]{
         left: 7px;
         cursor: pointer;
     }
+    &__navigator-img{
+        margin: 0 auto;
+        display: block;
+        padding: 20px;
+    }
 }  
 footer{
     padding:23px 0 21px 0;
     background-color:black;  
-}    
+}
+  
+@media screen and (max-width:992px){
+    .menu{
+        overflow: hidden;
+    }
+    .menu ul{
+        display: block;
+    }
+
+
+
+
+    // .title__text  {
+    //  width: auto;
+    //   }
+    // .carousel-text2{
+    //     width: auto;
+    //   }
+    // .title__main{
+    //     font-size:14px;
+    // }
+    // .tel{
+    //     width: 90%;
+    //     position: relative;
+    //     bottom: 0;
+    // }
+    // .mob{
+    //     width: 90%;;
+    // }
+    // .reserved,.reserved1 {
+    //     text-align: center;
+    // }
+    // .s_line{
+    //     width: 8%;
+    // }
+    // .team__grid{
+    //     display: grid;
+    //     grid-template-columns: 1fr 1fr ;
+    //     grid-auto-rows:minmax(100px,auto);
+    //     grid-column-gap: 1em;
+    //     }
+    }  
   
 
     
