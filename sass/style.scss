@@ -163,7 +163,7 @@ h1{
     background-color: black;
     position: relative;
     &__turnkey{
-        background-image: url('/img/living.png');
+        background-image: url('img/living.png');
         margin-left:82px;
         width: 1356px;
         position: relative;
@@ -265,7 +265,7 @@ h1{
     padding-top:150px;
 }
 .projects{
-    background: url('/img/re.png') no-repeat center;
+    background: url('img/re.png') no-repeat center;
     background-size:cover;
     width: 1440px;
     position: relative;
@@ -605,7 +605,7 @@ input[type="checkbox"]:checked+label:after{
     }
 }
 .request{
-    background: url('/img/house.png') no-repeat;
+    background: url('img/house.png') no-repeat;
     margin-bottom:320px;
     &__form{
         width: 504px;
@@ -819,7 +819,7 @@ label[for="request__form_check"]{
     line-height: 25px;
 }
 .fantasies{
-    background: url('/img/appartament.png') no-repeat ;
+    background: url('img/appartament.png') no-repeat ;
     &__title{
         font-family: $font-yeseva;
         font-style: normal;
@@ -1278,7 +1278,7 @@ label[for="questions__form_check"]{
     padding-left:30px;
 }   
 .map{
-    background: url('/img/map-background.png') no-repeat ;
+    background: url('img/map-background.png') no-repeat ;
     height: 953px;
     position: relative;
      
